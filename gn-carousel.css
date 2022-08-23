@@ -24,6 +24,9 @@
   height: 500px;
 }
 
+$carousel-control-color: #7b277d;
+$carousel-caption-color: #7b277d;
+$carousel-indicator-active-bg: #7b277d;
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
