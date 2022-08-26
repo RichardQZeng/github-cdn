@@ -1,6 +1,5 @@
-/* CUSTOMIZE THE CAROUSEL
+/* CUSTOMIZE THE MAIN CAROUSEL
 -------------------------------------------------- */
-
 /* Carousel base class */
 .carousel {
   height: 500px;
@@ -98,4 +97,22 @@ $carousel-indicator-active-bg: #7b277d;
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+/* CUSTOMIZE THE LOGO CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.logo-carousel {
+    height: 90px;
+    margin-bottom: 2px;
+}
+  
+/* Declare heights because of positioning of img element */
+.logo-carousel .item {
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+}
+
+#logo-item {
+    height: 80px;
 }
